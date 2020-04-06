@@ -1,0 +1,68 @@
+body{
+padding: 0;
+margin: 0;
+}
+.container{
+	position:absolute;
+	margin:50px;
+	background:white;
+	left: 422px;
+	width: 797px;
+	top: 36px;
+	height: 363px;
+            }
+
+#demo{
+display: block;
+width: 360px;
+height: 360px;
+margin: 50px;
+position: relative;
+border: 1px solid #ccc;
+}
+#float-box{
+position: relative;
+z-index: 1;
+}
+#small-box{
+display: none;
+width: 120px;
+height: 120px;
+position: absolute;
+background: #ffffcc;
+border: 1px solid #ccc;
+filter: alpha(opacity=50);
+opacity: 0.5;
+cursor: move;
+}
+#big-box{
+display: none;
+position: absolute;
+top: 0;
+left: 500px;
+width: 480px;
+height: 480px;
+overflow: hidden;
+border: 1px solid #ccc;
+z-index: 1;
+ 
+ 
+}
+#big-box img{
+position: absolute;
+z-index: 5;
+}
+a:link {
+	color: #F06;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #F06;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
